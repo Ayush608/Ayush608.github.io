@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./pages.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Best laptops for</div>
+        <!--                                      burger menu                               -->
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+        <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20" rx="8" style="fill: white"></rect>
+            <rect
+            y="30"
+            width="100"
+            height="20"
+            rx="8"
+            style="fill: white"
+            ></rect>
+            <rect
+            y="60"
+            width="100"
+            height="20"
+            rx="8"
+            style="fill: white"
+            ></rect>
+        </svg>
+        </label>
+        <!--       xxxxxxxxxxxxxxxxxxx          burger menu     xxxxxxxxxxxxxxxxxxxx                 -->
+        <ul>
+        <li><a class="active" href="/index.html">Home</a></li>
+        <li><a href="./DMCA.html">DMCA</a></li>
+        <li><a href="./Privacy-Policy.html">Privacy Policy</a></li>
+        <li><a href="./Cookie-Policy.html">Cookie Policy</a></li>
+        <li><a href="./Terms-Of-Use.html">T.O.S</a></li>
+        <li><a href="./Contect-Form.html">Contact Us</a></li>
+        </ul>
+    </nav>
+<br>
+<br>
+<br>
+<br>
+    <!-- nav ending -->
+    <div class="PageContent">
+    <h1>Contect Form</h1><br>
+    <h2> If you want to contact me, you can fill the contact from below. </h2><br>
+  </div>
+    <!-- form starting -->
+    
+    
+    <form
+  action="https://formspree.io/f/mpzoorne"
+  method="POST"
+>
+<div class="form-name">
+<label >
+  Your Name:
+  <input type="text" name="name">
+</label>
+</div>
+<div class="form_email">
+  <label >
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+</div>
+<div class="message">   
+<label >
+        Message:
+        <textarea name="message"></textarea>
+      </label>
+  <!-- your other form fields go here -->
+</div>
+
+  <button class="form-btn" type="submit">Click Me TO Send</button>
+</form><br>
+<br>
+<br>
+<br>
+
+<div id="footer">
+  <hr>
+  <p>Copyright © 2020 BestLaptopsFor.com</p> 
+  <hr>
+</div>
+</body>
+
+</html>
