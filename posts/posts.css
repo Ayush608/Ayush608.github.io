@@ -42,7 +42,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   color: #000;
-  background-color: #fff;
+  background: #fff;
 }
 nav .menu-btn svg {
   color: #fff;
@@ -97,7 +97,7 @@ input[type="checkbox"] {
   nav ul li a.active,
   nav ul li a:hover {
     background: none;
-    color: #00898a;
+    color: #fff;
   }
 }
 nav.sticky {
