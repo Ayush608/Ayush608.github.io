@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 
 <url>
@@ -62,17 +62,23 @@
   <lastmod>2021-02-01T14:12:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.bestlaptopsfor.com/movies/Soul-Full-Movie-Download-Watch-Online.html</loc>
-  <lastmod>2021-02-01T14:12:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://www.bestlaptopsfor.com/movies/Article-on-Insurance.html</loc>
   <lastmod>2021-02-01T14:12:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
+<url>
+  <loc>https://www.bestlaptopsfor.com/tools/Super_Script_Generator/Super_Script.html</loc>
+  <lastmod>2021-02-01T14:12:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
 
-
+<url>
+  <loc>https://www.bestlaptopsfor.com/tools/Sub_Script_Generator/Sub_Script.html</loc>
+  <lastmod>2021-02-01T14:12:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+      
 </urlset>
