@@ -1,16 +1,14 @@
 // in articles ads 
-var article_ads ='<!-- ads starting -->'+
-'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>'+
-'<ins class="adsbygoogle"'+
-     'style="display:block; text-align:center;"'+
-     'data-ad-layout="in-article"'+
-     'data-ad-format="fluid"'+
-     'data-ad-client="ca-pub-1525045383348447"'+
-     'data-ad-slot="3060535157"></ins>'+
-'<script>'+
-     '(adsbygoogle = window.adsbygoogle || []).push({});'+
-'</script>'+
-'<!-- ads ending -->'
+var article_ads = `<script type="text/javascript">
+var channel_condition = object.booleanMethod();
+google_ad_client = "ca-pub-1525045383348447;
+google_ad_slot = "3060535157";
+google_ad_width = 728;
+google_ad_height = 90;
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>`
 
 // side-bar ads desktop
 var side_ads = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>'+
