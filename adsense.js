@@ -30,7 +30,7 @@ for (let a = 0; a < ad1.length; a++) {
     ad1[a].innerHTML = article_ads;
     const script = document.createElement('script');
     document.body.append(script);
-    script.innerHTML = '(adsbygoogle = window.adsbygoogle || []).push({});'
+    
 }
 // side ads insert loop
 var ad2 = document.getElementsByClassName('side_ads');
