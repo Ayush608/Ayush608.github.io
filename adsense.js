@@ -1,5 +1,6 @@
 // adsense script
-    document.body.append(script);
+    const script1 = document.createElement('script');
+    document.body.append(script1);
     script.innerHTML = 'console.log('fine');'
 // in articles ads 
 var article_ads ='<ins class="adsbygoogle"'+
