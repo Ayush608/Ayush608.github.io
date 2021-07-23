@@ -1,7 +1,7 @@
 // adsense script
     const script1 = document.createElement('script');
     document.body.append(script1);
-    script.innerHTML = 'console.log('fine');'
+    script1.innerHTML = 'console.log('fine');'
 // in articles ads 
 var article_ads ='<ins class="adsbygoogle"'+
      'style="display:block; text-align:center;"'+
