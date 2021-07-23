@@ -32,15 +32,15 @@ var ad3 = document.getElementsByClassName('bottom_ads');
 let tads = ad1.length + ad2.length + ad3.length;
 
 //article ads insert loop
-for (let a = 0; a < ad1.length; a++) {
+for (var a = 0; a < ad1.length; a++) {
     ad1[a].innerHTML = article_ads;
 }
 // side ads insert loop
-for (let a = 0; a < ad1.length; a++) {
+for (var a = 0; a < ad1.length; a++) {
     ad2[a].innerHTML = side_ads;
 }
 // bottom ads insert loop
-for (let a = 0; a < ad1.length; a++) {
+for (var a = 0; a < ad1.length; a++) {
     ad3[a].innerHTML = bottom_ads;
 }
  // pushing ads via this loop
