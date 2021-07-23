@@ -24,24 +24,26 @@ var bottom_ads = '<!-- for new layout square -->'+
     'data-ad-slot="5166941866"'+
     'data-ad-format="auto"'+
     'data-full-width-responsive="true"></ins>'
-//article ads insert loop
+// ad1 2 3 variable
 var ad1 = document.getElementsByClassName('article_ads');
+var ad2 = document.getElementsByClassName('side_ads');
+var ad3 = document.getElementsByClassName('bottom_ads');
+// total ads variable
+let tads = ad1.length + ad2.length + ad3.length;
+
+//article ads insert loop
 for (let a = 0; a < ad1.length; a++) {
     ad1[a].innerHTML = article_ads;
 }
 // side ads insert loop
-var ad2 = document.getElementsByClassName('side_ads');
 for (let a = 0; a < ad1.length; a++) {
     ad2[a].innerHTML = side_ads;
 }
 // bottom ads insert loop
-var ad3 = document.getElementsByClassName('bottom_ads');
 for (let a = 0; a < ad1.length; a++) {
     ad3[a].innerHTML = bottom_ads;
 }
  // pushing ads via this loop
-let tads = ad1.length + ad2.length + ad3.length;
-
 for (let adpush = 0; adpush < tads; adpush++) {
     const script = document.createElement('script');
     document.body.append(script);
