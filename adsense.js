@@ -1,7 +1,8 @@
 // adsense script
-//     const script1 = document.createElement('script');
-//     document.body.append(script1);
-//     script1.innerHTML = ''
+const script1 = document.createElement('script');
+script1.setAttribute("data-ad-client","ca-pub-1525045383348447");
+script1.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+document.body.append(script1);
 // in articles ads 
 var article_ads ='<ins class="adsbygoogle"'+
      'style="display:block; text-align:center;"'+
