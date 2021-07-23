@@ -1,3 +1,5 @@
+// adsense script
+data-ad-client="ca-pub-1525045383348447" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 // in articles ads 
 var article_ads ='<ins class="adsbygoogle"'+
      'style="display:block; text-align:center;"'+
