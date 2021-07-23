@@ -28,22 +28,21 @@ var bottom_ads = '<!-- for new layout square -->'+
 var ad1 = document.getElementsByClassName('article_ads');
 for (let a = 0; a < ad1.length; a++) {
     ad1[a].innerHTML = article_ads;
-    const script = document.createElement('script');
-    document.body.append(script);
-    
 }
 // side ads insert loop
 var ad2 = document.getElementsByClassName('side_ads');
 for (let a = 0; a < ad1.length; a++) {
     ad2[a].innerHTML = side_ads;
-    const script = document.createElement('script');
-    document.body.append(script);
-    script.innerHTML = '(adsbygoogle = window.adsbygoogle || []).push({});'
 }
 // bottom ads insert loop
 var ad3 = document.getElementsByClassName('bottom_ads');
 for (let a = 0; a < ad1.length; a++) {
     ad3[a].innerHTML = bottom_ads;
+}
+ // pushing ads via this loop
+let tads = ad1.length + ad2.length + ad3.length;
+
+for (let adpush = 0; adpush < tads; adpush++) {
     const script = document.createElement('script');
     document.body.append(script);
     script.innerHTML = '(adsbygoogle = window.adsbygoogle || []).push({});'
