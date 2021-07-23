@@ -33,8 +33,14 @@ var bottom_ads = '<script async src="https://pagead2.googlesyndication.com/pagea
     'data-ad-format="auto"'+
     'data-full-width-responsive="true"></ins>'+
 '<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>'
-//side article ads insert
-document.getElementById('article_ads').innerHTML = article_ads
+//article ads insert loop
+var ad1 = document.getElementsByClassName('article_ads');
+for (let a = 0; a < ad1.length; a++) {
+    ad1[a].innerHTML = article_ads;
+    const script = document.createElement('script');
+    document.body.append(script);
+    script.innerHTML = '(adsbygoogle = window.adsbygoogle || []).push({});'
+}
 // side ads insert
 document.getElementById('side_ads').innerHTML = side_ads
 // bottom ads insert
