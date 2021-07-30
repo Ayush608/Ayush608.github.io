@@ -10,14 +10,9 @@
     <p>helli
     </p>
 </body>
-<script>
-	"use strict";
-	const element = document.querySelector("iframe");
-	const iframeWindow = element.contentWindow;
-	element.remove();
-	
-	console.assert(iframeWindow.top === null);
-	console.assert(iframeWindow.parent === null);
-	console.assert(iframeWindow.frameElement === null);
-	</script>
+<script type="text/javascript">
+  if (top != self) {
+	  console.log("XD");
+  };
+</script>
 </html>
