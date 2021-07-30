@@ -11,8 +11,13 @@
     </p>
 </body>
 <script type="text/javascript">
-  if (top != self) {
-	  console.log("XD");
-  };
+if ( window !== window.parent ) 
+{
+      console.log("The page is in an iframe ") 
+} 
+else 
+{     
+     console.log("The page is not in an iframe ")   
+}
 </script>
 </html>
