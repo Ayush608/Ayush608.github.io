@@ -101,20 +101,7 @@ input[type="checkbox"] {
   }
 }
 
-.logo {
-  color: #fff;
-  text-shadow: 0 0 50px #0f0, 0 0 50px #0f0, 0 0 150px #0f0, 0 0 200px #0f0,
-    0 0 250px #0f0;
-  animation: logoAnimate 2s linear infinite;
-}
-@keyframes logoAnimate {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-  100% {
-    filter: hue-rotate(360deg);
-  }
-}
+
 /* for small screen mobiles */
 @media (max-width: 320px) {
   nav .logo {
