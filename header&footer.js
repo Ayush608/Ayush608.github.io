@@ -36,7 +36,6 @@ document.getElementById('nav').innerHTML=`<nav>
 <br>
 <br>
 <br>
-<a href="https://bluehost.sjv.io/c/2466172/1465849/11352?u=https%3A%2F%2Fwww.bluehost.in%2Fhosting%2Fshared" target="_top" id="1465849"><img src="//a.impactradius-go.com/display-ad/11352-1465849" border="0" alt="" width="728" height="90"/></a><img height="0" width="0" src="https://imp.pxf.io/i/2466172/1465849/11352" style="position:absolute;visibility:hidden;" border="0" />
 `;
 // ------------------Header nav Ending---------------------------
 // ------------------Click On Logo To go Home-------------------
